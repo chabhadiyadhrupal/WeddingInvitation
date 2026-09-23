@@ -1,0 +1,78 @@
+{
+  "settings": {
+    "wedding_date": "2026-10-22",
+    "wedding_time": "10:00 AM",
+    "venue_name": "Gokul Farm & Party Plot",
+    "venue_address": "Lambhvel Road, Anand - 388001, Gujarat, India",
+    "maps_link": "https://maps.app.goo.gl/abcdefg",
+    "music_url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "music_autoplay": true,
+    "theme_colors": {
+      "primary": "#2D3748",
+      "secondary": "#718096",
+      "accent": "#4A5568",
+      "bg": "#F7FAFC"
+    },
+    "seo_title": "Aarav & Diya's Wedding Invitation | લગ્ન કંકોતરી",
+    "seo_description": "We cordially invite you to celebrate the wedding of Aarav and Diya. Join us for a beautiful celebration of traditional Gujarati culture.",
+    "qr_code_enabled": true,
+    "cover_photo": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1000",
+    "zoom_link": "https://zoom.us/j/1234567890",
+    "youtube_link": "https://youtube.com/live/abcdefghijk",
+    "instagram_link": "https://instagram.com/couple_wedding_live",
+    "gift_bank_name": "HDFC Bank",
+    "gift_account_number": "50100234567890",
+    "gift_account_name": "Aarav Patel & Diya Shah",
+    "theme_layout": "modern-slate"
+  },
+  "couple": {
+    "groom_name_en": "Aarav Patel",
+    "groom_name_gu": "આરવ",
+    "groom_bio": "A wonderful groom.",
+    "groom_photo": "",
+    "bride_name_en": "Diya Shah",
+    "bride_name_gu": "દિયા",
+    "bride_bio": "A beautiful bride.",
+    "bride_photo": "",
+    "welcome_message": "જય શ્રી ગણેશ. We invite you to join us as we celebrate our love and begin this beautiful journey together."
+  },
+  "events": [
+    {
+      "id": "event-1",
+      "title_en": "Sangeet & Garba Night",
+      "title_gu": "રાસ ગરબા",
+      "date": "2026-10-21",
+      "time": "07:00 PM",
+      "venue": "Gokul Farm, Anand",
+      "description_en": "Join us for an evening of music, dance, and traditional Gujarati Garba.",
+      "description_gu": "ઢોલના ધબકારે ટ્રેડિશનલ ગરબા અને દાંડિયાની ધમાકેદાર સાંજ.",
+      "icon": "music"
+    },
+    {
+      "id": "event-2",
+      "title_en": "Wedding Ceremony",
+      "title_gu": "હસ્તમેળાપ અને મંગલ ફેરા",
+      "date": "2026-10-22",
+      "time": "10:00 AM",
+      "venue": "Gokul Farm, Anand",
+      "description_en": "Witness the sacred wedding vows and Mangal Fera.",
+      "description_gu": "વૈદિક મંત્રોચ્ચાર વચ્ચે પવિત્ર અગ્નિની સાક્ષીએ મંગલ ફેરાની દિવ્ય વિધિ.",
+      "icon": "heart"
+    }
+  ],
+  "gallery": [],
+  "family": [],
+  "love_story": [],
+  "rsvps": [
+    {
+      "name": "dhrupal",
+      "phone": "78599666334",
+      "guests_count": 1,
+      "attending": true,
+      "message": "congo",
+      "id": "rsvp-f8jd21i",
+      "created_at": "2026-07-05T11:12:31.135Z"
+    }
+  ],
+  "wishes": []
+}

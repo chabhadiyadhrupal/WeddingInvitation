@@ -1,0 +1,187 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #800000;      /* Royal Maroon */
+    --secondary: #D4AF37;    /* Metallic Gold */
+    --accent: #9B111E;       /* Royal Red */
+    --cream: #FDFBF7;        /* Traditional Cream Background */
+    --dark: #1F080C;         /* Premium Deep Dark */
+  }
+
+  body {
+    background-color: var(--cream);
+    color: #333333;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Metallic Gradient */
+.bg-gold-metallic {
+  background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 50%, #AA7C11 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-gold-metallic::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 30%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.4);
+  transform: rotate(30deg);
+  transition: all 0.6s ease;
+  animation: metallicShine 4s infinite linear;
+}
+
+.text-gold-metallic {
+  background: linear-gradient(135deg, #FFE89C 0%, #D4AF37 50%, #A2790D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Shine Keyframe */
+@keyframes metallicShine {
+  0% { left: -100%; }
+  25% { left: 150%; }
+  100% { left: 150%; }
+}
+
+/* Custom animations */
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 30s linear infinite;
+}
+
+@keyframes sway {
+  0%, 100% {
+    transform: rotate(-1.5deg);
+  }
+  50% {
+    transform: rotate(1.5deg);
+  }
+}
+
+.animate-sway {
+  animation: sway 4s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FDFBF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #800000;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9B111E;
+}
+
+/* Animated pulsing glowing border */
+@keyframes borderGlow {
+  0%, 100% {
+    border-color: var(--color-secondary, #D4AF37);
+    box-shadow: 0 10px 30px -10px rgba(128, 0, 0, 0.15), inset 0 0 15px rgba(212, 175, 55, 0.2);
+  }
+  50% {
+    border-color: var(--color-accent, #9B111E);
+    box-shadow: 0 10px 35px -5px rgba(128, 0, 0, 0.25), 0 0 15px rgba(212, 175, 55, 0.4), inset 0 0 25px rgba(212, 175, 55, 0.4);
+  }
+}
+
+/* Pulsing text glow for Shlokas */
+@keyframes goldPulse {
+  0%, 100% {
+    text-shadow: 0 0 4px rgba(212, 175, 55, 0.2);
+    opacity: 0.9;
+  }
+  50% {
+    text-shadow: 0 0 12px rgba(212, 175, 55, 0.8), 0 0 20px rgba(212, 175, 55, 0.4);
+    opacity: 1;
+  }
+}
+
+/* Moving background gradient shimmer */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Backdrop scale pulse */
+@keyframes scalePulse {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.04) rotate(4deg); }
+}
+
+.animate-scale-pulse {
+  animation: scalePulse 20s ease-in-out infinite;
+}
+
+.animate-gold-pulse {
+  animation: goldPulse 4s ease-in-out infinite;
+}
+
+/* Decorative Card Style */
+.royal-card {
+  background: rgba(253, 251, 247, 0.88);
+  backdrop-filter: blur(10px);
+  border: 2px solid var(--color-secondary, #D4AF37);
+  border-radius: 16px;
+  animation: borderGlow 6s infinite ease-in-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.royal-card:hover {
+  transform: translateY(-4px);
+}
+
+.royal-card-dark {
+  background: rgba(31, 8, 12, 0.92);
+  backdrop-filter: blur(14px);
+  border: 2px solid var(--color-secondary, #D4AF37);
+  border-radius: 16px;
+  animation: borderGlow 6s infinite ease-in-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.royal-card-dark:hover {
+  transform: translateY(-4px);
+}
+
+/* Custom Toran Pattern Border */
+.toran-border {
+  background-image: radial-gradient(circle at 50% 100%, #D4AF37 3px, transparent 4px);
+  background-size: 16px 12px;
+  height: 12px;
+  width: 100%;
+}

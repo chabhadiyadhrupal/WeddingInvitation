@@ -1,0 +1,181 @@
+{
+  "settings": {
+    "wedding_date": "2026-11-20",
+    "wedding_time": "10:00 AM",
+    "venue_name": "Royal Palace Lawn",
+    "venue_address": "Behind Town Hall, Anand - 388001, Gujarat, India",
+    "maps_link": "https://maps.app.goo.gl/abcdefg",
+    "music_url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+    "music_autoplay": true,
+    "theme_colors": {
+      "primary": "#800000",
+      "secondary": "#D4AF37",
+      "accent": "#9B111E",
+      "bg": "#FDFBF7"
+    },
+    "seo_title": "Aarav & Diya's Wedding Invitation | આરવ અને દિયા",
+    "seo_description": "We cordially invite you to celebrate the wedding of Aarav and Diya. Join us for a beautiful celebration of traditional Gujarati culture and love.",
+    "qr_code_enabled": true
+  },
+  "couple": {
+    "groom_name_en": "Aarav Patel",
+    "groom_name_gu": "આરવ પટેલ",
+    "groom_bio": "A passionate software engineer who loves trekking, photography, and traditional Gujarati cuisine.",
+    "groom_photo": "/uploads/images/1782320346421-IMG20250817063442new.jpg",
+    "bride_name_en": "Diya Shah",
+    "bride_name_gu": "દિયા શાહ",
+    "bride_bio": "A creative graphic designer who loves classical dance, painting, and crafting beautiful designs.",
+    "bride_photo": "/uploads/images/1782320351657-IMG20260124135745.jpg",
+    "welcome_message": "જય શ્રી ગણેશ. We invite you to join us as we celebrate our love and begin this beautiful journey together."
+  },
+  "events": [
+    {
+      "id": "event-1",
+      "title_en": "Mehendi Ceremony",
+      "title_gu": "મહેંદી રસમ",
+      "date": "2026-11-18",
+      "time": "04:00 PM",
+      "venue": "Patel Villa Garden, Anand",
+      "description_en": "Join us as we adorn Diya's hands with beautiful henna designs amidst music, dance, and joy.",
+      "description_gu": "સંગીત અને આનંદ સાથે દિયાના હાથોમાં મહેંદીનો રંગ સજાવવાની સુંદર સાંજ.",
+      "icon": "palette"
+    },
+    {
+      "id": "event-2",
+      "title_en": "Sangeet & Garba Night",
+      "title_gu": "સંગીત સંધ્યા અને રાસ ગરબા",
+      "date": "2026-11-19",
+      "time": "07:00 PM",
+      "venue": "Royal Palace Lawn, Anand",
+      "description_en": "Put on your traditional Kediya and Chaniya Choli for a magical night of Garba, Dandiya, and live Dhol beats!",
+      "description_gu": "ખેલૈયાઓ તૈયાર થઈ જાઓ! ઢોલના ધબકારે ટ્રેડિશનલ ગરબા અને દાંડિયાની ધમાકેદાર સાંજ.",
+      "icon": "music"
+    },
+    {
+      "id": "event-3",
+      "title_en": "Haldi & Mandap Muhurat",
+      "title_gu": "પીઠી અને મંડપ મુહૂર્ત",
+      "date": "2026-11-20",
+      "time": "08:00 AM",
+      "venue": "Respective Residences",
+      "description_en": "Auspicious prayers to begin the wedding rituals, followed by smearing the bride and groom with turmeric paste for a glowing start.",
+      "description_gu": "શુભ મંડપ મુહૂર્ત પૂજન અને વર-કન્યાને હળદરની પીઠી ચોળવાની મંગલ વિધિ.",
+      "icon": "sun"
+    },
+    {
+      "id": "event-4",
+      "title_en": "Lagna Vidhi (Wedding Ceremony)",
+      "title_gu": "હસ્તમેળાપ અને મંગલ ફેરા",
+      "date": "2026-11-20",
+      "time": "10:00 AM",
+      "venue": "Royal Palace Lawn, Anand",
+      "description_en": "Witness the sacred vows, Hast Melap, and Mangal Fera as we tie our lives together forever.",
+      "description_gu": "વૈદિક મંત્રોચ્ચાર વચ્ચે હસ્તમેળાપ અને પવિત્ર અગ્નિની સાક્ષીએ મંગલ ફેરાની દિવ્ય વિધિ.",
+      "icon": "heart"
+    },
+    {
+      "id": "event-5",
+      "title_en": "Reception",
+      "title_gu": "સ્નેહ મિલન અને ભોજન સમારંભ",
+      "date": "2026-11-21",
+      "time": "06:00 PM",
+      "venue": "Grand Hyatt Ballroom, Ahmedabad",
+      "description_en": "Celebrate our new beginning with a grand dinner banquet. We look forward to your blessings.",
+      "description_gu": "નવદંપતીને આશીર્વાદ આપવા સ્નેહ મિલન અને ભોજન સમારંભ.",
+      "icon": "gift"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "img-1",
+      "url": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=800",
+      "caption": "Traditional Pre-wedding Shoot",
+      "order": 1
+    },
+    {
+      "id": "img-2",
+      "url": "https://images.unsplash.com/photo-1607190074257-dd4b7af0309f?auto=format&fit=crop&q=80&w=800",
+      "caption": "Moments of Togetherness",
+      "order": 2
+    },
+    {
+      "id": "img-4",
+      "url": "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?auto=format&fit=crop&q=80&w=800",
+      "caption": "Garba Celebration",
+      "order": 3
+    }
+  ],
+  "family": [
+    {
+      "id": "fam-1",
+      "name": "Ramesh Patel",
+      "relationship": "Father of the Groom",
+      "side": "groom",
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200"
+    },
+    {
+      "id": "fam-2",
+      "name": "Kavita Patel",
+      "relationship": "Mother of the Groom",
+      "side": "groom",
+      "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200"
+    },
+    {
+      "id": "fam-3",
+      "name": "Kishor Shah",
+      "relationship": "Father of the Bride",
+      "side": "bride",
+      "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200"
+    },
+    {
+      "id": "fam-4",
+      "name": "Meena Shah",
+      "relationship": "Mother of the Bride",
+      "side": "bride",
+      "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200"
+    }
+  ],
+  "love_story": [
+    {
+      "id": "story-1",
+      "title": "The First Glimpse",
+      "date": "Jan 2024",
+      "description": "We met in Ahmedabad during the Uttarayan kite festival. Under a sky full of colorful kites, our eyes met and a sweet conversation began.",
+      "photo": "https://images.unsplash.com/photo-1510154222990-1c4078adbe1e?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+      "id": "story-2",
+      "title": "The Proposal",
+      "date": "Dec 2025",
+      "description": "Under the starry sky of the White Desert during the Rann Utsav, Aarav went down on one knee. Diya said YES, making it the most memorable night of our lives.",
+      "photo": "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&q=80&w=600"
+    }
+  ],
+  "rsvps": [
+    {
+      "id": "rsvp-1",
+      "name": "Hiren Patel",
+      "phone": "9876543210",
+      "guests_count": 2,
+      "attending": true,
+      "message": "Congratulations to both! Looking forward to the wedding.",
+      "created_at": "2026-06-20T10:00:00.000Z"
+    }
+  ],
+  "wishes": [
+    {
+      "id": "wish-1",
+      "name": "Nitin & Shruti Vyas",
+      "message": "સદા સુખી ભવઃ! May your life be filled with endless laughter, love, and sweet memories.",
+      "approved": true,
+      "created_at": "2026-06-20T11:00:00.000Z"
+    },
+    {
+      "id": "wish-2",
+      "name": "Rajeshbhai & Family",
+      "message": "ખૂબ ખૂબ અભિનંદન! Best wishes for this beautiful new chapter in your lives.",
+      "approved": true,
+      "created_at": "2026-06-21T09:30:00.000Z"
+    }
+  ]
+}
